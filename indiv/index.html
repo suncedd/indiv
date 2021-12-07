@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Рассчет стоимости</title>
+</head>
+<body>
+
+    <div class="header">Рассчет стоимости</div>
+    <div class="all">
+    <div class="ds">Выберите курс: 
+    <select class="curse">
+        <option value="Стандарт">Стандарт</option>
+        <option value="2">Ускоренный курс</option>
+        <option value="Специальный курс">Специальный курс</option>
+        <option value="Продвинутый курс">Продвинутый курс</option>
+        
+       
+    </select>
+</div>
+<div class="stoim">Стоимость курса: <input type="text" readonly value="2500" class="dayprice"></div>
+<div class="ff">ФИО: <input type="text" class="fio"></div>
+<div class="ranger">
+    <label class="lab" for="range">Количество дней <span class="rasstoyanie">1</span> <span></span></label>
+    <input type="range" class="custom-range" min="1" max="60" step="1" id="range" value="1">
+  </div>
+
+<div class="lo">Дополнительная услуга: 
+  <select class="bonus">
+    <option value="Нет">Нет</option>
+    <option value="Личный">Личный преподаватель</option>
+  </select>
+</div>
+<div class="btn">
+    <button class="button">Рассчитать</button>
+    <button class="clear">Очистить</button>
+</div>
+<div class="summ">
+    <p>Сумма к оплате: <input type="number" class="sum" readonly></p>
+</div>
+</div>
+</body>
+<script src="js/js.js"></script>
+</html>

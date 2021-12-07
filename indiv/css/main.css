@@ -1,0 +1,88 @@
+
+.summ{
+    display: none;
+}
+.out{
+    display: block;
+    text-align: center;
+}
+.all{
+    display: block;
+    text-align: center;
+}
+.header{
+    display: block;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: rgb(172, 67, 158);
+    
+}
+.lab{
+    color: white;
+}
+.ds{
+    color: white;
+}
+.fio{
+    height: 40px;
+    width: 580px;
+}
+.curse
+{
+    height: 45px;
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.stoim{
+    color: white;
+    margin-bottom: 20px;
+} 
+.ff{
+    color: white;
+    margin-bottom: 20px;
+}
+.kol{
+    color: white;
+    margin-bottom: 20px;
+}
+.lo{
+    color: white;
+    margin-bottom: 20px;
+   
+}
+.custom-range{
+    width: 580px;
+    color: white;
+    margin-bottom: 20px;
+}
+.all{
+    border: solid 2px;
+    margin-left: auto;
+    margin-left: auto;
+    height: 500px;
+    background-color:black ;
+}
+.dayprice{
+    height: 40px;
+    width: 500px;
+}
+.bonus{
+    height: 40px;
+    width: 465px;
+}
+.button{
+  
+    height: 40px;
+    width: 100px;
+}
+.clear{
+    
+    height: 40px;
+    width: 100px;
+}
+.btn{
+    
+}
